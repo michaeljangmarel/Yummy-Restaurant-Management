@@ -69,7 +69,8 @@ class ProjectApi extends Controller
             'name' => $a->name
         ]);
 
-        return ['process' => 'updated']
-
+        return $text = [
+            'status' => 'Updated'
+        ];
     }
 }
